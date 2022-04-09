@@ -1,0 +1,154 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+body{
+  background: var(--body-bg-color);
+  position: relative;
+  width: 1440px;
+  height: 1767px;
+}
+
+main{
+  background:var(--bg-cards);
+  border-radius: 20px;
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  margin-left: 448px;
+  margin-top: 40px;
+  margin-right: 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.projects h1{
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.todos a{
+  color: var(--text-color);
+  font-size: 14px;
+  margin-right:30px;
+  text-decoration: none;
+}
+
+.post-title p{
+  color: var(--text-color);
+  margin: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+aside{
+  width:18.24%;
+  background:pink;
+}
+
+.card{
+  position: absolute;
+  margin-top:157px;
+  background:var(--bg-cards);
+  width: 461px;
+  height: 186px;
+  border-radius: 20px;
+}
+
+.card-projeto1{
+  margin-left: 448px;
+  
+}
+
+.card-projeto2{
+  margin-left: 939px;
+  margin-right: 40px;
+}
+
+.post-title{
+  background:var(--bg-cards);
+  border-radius: 20px;
+  position: absolute;
+  margin-top:373px;
+  margin-left:448px;
+  height: 86px;
+  width: 952px;
+}
+
+.content-post{
+  background:var(--bg-cards);
+  border-radius: 20px;
+  position: absolute;
+  margin-top:489px;
+  margin-left:448px;
+  width: 952px;
+  height: 201px;
+}
+
+.card-perfil{
+  background:var(--bg-cards);
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 348px;
+  height: 292px;
+}
+
+.card-info{
+  background:var(--bg-cards);
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 362px;
+  margin-left: 40px;
+  width: 348px;
+  height: 348px;
+}
+
+.card-tecnologia{
+  background:var(--bg-cards);
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 740px;
+  margin-left: 40px;
+  width: 348px;
+  height: 208px;
+}
+
+.card-experiencia{
+  background:var(--bg-cards);
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 978px;
+  margin-left: 40px;
+  width: 348px;
+  height: 349px;
+}
+
+.card-educacao{
+  background:var(--bg-cards);
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 1357px;
+  margin-left: 40px;
+  width: 348px;
+  height: 352px;
+}
+
+footer{
+ height: 19px;
+ color:var(--text-color);
+ line-height: 20px;
+ margin-top: 1750px;
+ margin-left: 617px;
+ margin-right: 617px;
+ padding-bottom: 25px;
+ position:absolute;
+ width: 206px;
+}
