@@ -1,19 +1,20 @@
 :root {
-  --body-bg-color: #22212C;
-  --text-color: #837E9F;
-  --bg-cards: #302F3D;
-  --bg-techs: #CB92B1;
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+  --border-color: #00ff00;
 }
 
-body{
+body {
   background: var(--body-bg-color);
   position: relative;
   width: 1440px;
   height: 1767px;
 }
 
-main{
-  background:var(--bg-cards);
+main {
+  background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
   width: 952px;
@@ -21,78 +22,77 @@ main{
   margin-left: 448px;
   margin-top: 40px;
   margin-right: 40px;
-  display:flex;
-  justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.projects h1{
+.projects h1 {
   color: var(--text-color);
   font-size: 20px;
   font-weight: bold;
   margin-left: 30px;
 }
 
-.todos a{
+.todos a {
   color: var(--text-color);
   font-size: 14px;
-  margin-right:30px;
+  margin-right: 30px;
   text-decoration: none;
 }
 
-.post-title p{
+.post-title p {
   color: var(--text-color);
   margin: 30px;
   font-weight: bold;
   font-size: 20px;
 }
 
-aside{
-  width:18.24%;
-  background:pink;
+aside {
+  width: 18.24%;
+  background: pink;
 }
 
-.card{
+.card {
   position: absolute;
-  margin-top:157px;
-  background:var(--bg-cards);
+  margin-top: 157px;
+  background: var(--bg-cards);
   width: 461px;
   height: 186px;
   border-radius: 20px;
 }
 
-.card-projeto1{
+.card-projeto1 {
   margin-left: 448px;
-  
 }
 
-.card-projeto2{
+.card-projeto2 {
   margin-left: 939px;
   margin-right: 40px;
 }
 
-.post-title{
-  background:var(--bg-cards);
+.post-title {
+  background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top:373px;
-  margin-left:448px;
+  margin-top: 373px;
+  margin-left: 448px;
   height: 86px;
   width: 952px;
 }
 
-.content-post{
-  background:var(--bg-cards);
+.content-post {
+  background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top:489px;
-  margin-left:448px;
+  margin-top: 489px;
+  margin-left: 448px;
   width: 952px;
   height: 201px;
 }
 
-.card-perfil{
-  background:var(--bg-cards);
+.card-perfil {
+  background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
   margin-top: 40px;
@@ -101,8 +101,43 @@ aside{
   height: 292px;
 }
 
-.card-info{
-  background:var(--bg-cards);
+.name {
+  color: var(--text-color);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 23px;
+  position: absolute;
+  width: 196px;
+  height: 26px;
+  margin: 190px 76px 76px 76px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.dev {
+  color: var(--text-color);
+  position: absolute;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  width: 128px;
+  height: 17px;
+  margin: 226px 110px 49px;
+}
+
+.perfil img {
+  box-sizing: border-box;
+  border: 2px solid #00ff00;
+  border-radius: 50%;
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  margin: 32px 110px 132px;
+}
+
+.card-info {
+  background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
   margin-top: 362px;
@@ -111,8 +146,8 @@ aside{
   height: 348px;
 }
 
-.card-tecnologia{
-  background:var(--bg-cards);
+.card-tecnologia {
+  background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
   margin-top: 740px;
@@ -121,8 +156,28 @@ aside{
   height: 208px;
 }
 
-.card-experiencia{
-  background:var(--bg-cards);
+.tech {
+  color: var(--text-color);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  width: 121px;
+  height: 26px;
+  margin: 30px 207px 152px 20px;
+  line-height: 25px;
+}
+
+.container-list{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  /* margin-top:76px; */
+  margin-top:104px;
+}
+
+.card-experiencia {
+  background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
   margin-top: 978px;
@@ -131,8 +186,8 @@ aside{
   height: 349px;
 }
 
-.card-educacao{
-  background:var(--bg-cards);
+.card-educacao {
+  background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
   margin-top: 1357px;
@@ -141,14 +196,14 @@ aside{
   height: 352px;
 }
 
-footer{
- height: 19px;
- color:var(--text-color);
- line-height: 20px;
- margin-top: 1750px;
- margin-left: 617px;
- margin-right: 617px;
- padding-bottom: 25px;
- position:absolute;
- width: 206px;
+footer {
+  height: 19px;
+  color: var(--text-color);
+  line-height: 20px;
+  margin-top: 1750px;
+  margin-left: 617px;
+  margin-right: 617px;
+  padding-bottom: 25px;
+  position: absolute;
+  width: 206px;
 }
