@@ -172,10 +172,12 @@ aside {
   position: absolute;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: 76px;
-
-  /* margin-top:104px; */
+  justify-content: space-between;
+  width: 289px;
+  margin-top: 71px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
 }
 
 li.row {
@@ -184,16 +186,15 @@ li.row {
   height: 24px;
   background: var(--bg-techs);
   margin-bottom: 15px;
-  margin-left: 30px;
+  
 }
 
 .list-col {
   font-size: 10px;
-  padding-top: 7px;
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  margin-right: -13px;
+  
 }
 
 ul > li > p{
