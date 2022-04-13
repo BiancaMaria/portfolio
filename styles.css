@@ -146,6 +146,46 @@ aside {
   height: 348px;
 }
 
+.container-info {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 31px;
+  width: 271px;
+  height: 286px;
+}
+
+.list-info {
+  display: flex;
+  padding-bottom: 5px;
+  height: 48px;
+}
+
+.list-info img {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 24px;
+  height: 24px;
+}
+
+#icon1 {
+  color: var(--text-color);
+}
+
+.networks {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--text-color);
+}
+
+.networks > a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
 .card-tecnologia {
   background: var(--bg-cards);
   border-radius: 20px;
@@ -177,7 +217,6 @@ aside {
   margin-top: 71px;
   padding-left: 30px;
   padding-right: 30px;
-  
 }
 
 li.row {
@@ -186,7 +225,6 @@ li.row {
   height: 24px;
   background: var(--bg-techs);
   margin-bottom: 15px;
-  
 }
 
 .list-col {
@@ -194,10 +232,9 @@ li.row {
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  
 }
 
-ul > li > p{
+ul > li > p {
   padding-top: 6px;
   padding-bottom: 7px;
 }
