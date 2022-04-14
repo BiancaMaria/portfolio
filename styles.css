@@ -237,9 +237,9 @@ li.row {
   list-style: none;
 }
 
-ul > li > p {
+ul > li > p.row-p {
   padding-top: 6px;
-  padding-bottom: 7px;
+  
 }
 
 .card-experiencia {
@@ -270,11 +270,16 @@ ul > li > p {
   position: absolute;
 }
 
+.list-exp{
+  line-height:16px;
+  margin-bottom: 20px;
+}
+
 .descricao{
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
-  line-height: 15px;
+  
   
 }
 
@@ -282,7 +287,7 @@ span.time{
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
-  background:white;
+  
 }
 
 /* .exp1{
