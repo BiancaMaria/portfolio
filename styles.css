@@ -64,12 +64,76 @@ aside {
 
 .card-projeto1 {
   margin-left: 448px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .card-projeto2 {
   margin-left: 939px;
   margin-right: 40px;
 }
+
+.repository {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 411px;
+  margin-bottom: 136px;
+}
+
+div.card.card-projeto1 h1 {
+  position: absolute;
+  color: var(--text-color);
+  width: 130px;
+  height: 17px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.project-title {
+  margin-left: 137px;
+  margin-right: 316px;
+  margin-top: 31px;
+}
+
+.subtitle-desc {
+  margin-left: 283px;
+  margin-right: 316px;
+  margin-top: 70px;
+  line-height: 20px;
+  color: var(--text-color);
+  position: absolute;
+  width: 367px;
+  height: 19px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.bolinha-tech {
+  display: flex;
+  position: absolute;
+  margin-top: 138px;
+  margin-left: 339px;
+  margin-right: 40px;
+}
+
+.bolinha-tech p{
+  color:var(--text-color);
+}
+
+.bolinha {
+  background: #e34c26;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+
 
 .post-title {
   background: var(--bg-cards);
@@ -178,6 +242,7 @@ aside {
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
+  padding-top: 5px;
   color: var(--text-color);
 }
 
@@ -239,7 +304,6 @@ li.row {
 
 ul > li > p.row-p {
   padding-top: 6px;
-  
 }
 
 .card-experiencia {
@@ -252,7 +316,7 @@ ul > li > p.row-p {
   height: 349px;
 }
 
-.card-experiencia > h1{
+.card-experiencia > h1 {
   width: 127px;
 }
 
@@ -270,33 +334,22 @@ ul > li > p.row-p {
   position: absolute;
 }
 
-.list-exp{
-  line-height:16px;
+.list-exp {
+  line-height: 16px;
   margin-bottom: 20px;
 }
 
-.descricao{
+.descricao {
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
-  
-  
 }
 
-span.time{
+span.time {
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
-  
 }
-
-/* .exp1{
-  background: pink;
-}
-
-.exp2{
-  background: white;
-} */
 
 .card-educacao {
   background: var(--bg-cards);
