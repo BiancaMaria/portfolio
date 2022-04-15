@@ -70,7 +70,12 @@ aside {
 
 .card-projeto2 {
   margin-left: 939px;
-  margin-right: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a#component{
+  width: 133px;
 }
 
 .repository {
@@ -83,20 +88,18 @@ aside {
   margin-bottom: 136px;
 }
 
-div.card.card-projeto1 h1 {
-  position: absolute;
-  color: var(--text-color);
+.project-title {
   width: 130px;
   height: 17px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-}
-
-.project-title {
   margin-left: 137px;
   margin-right: 316px;
   margin-top: 31px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  position: absolute;
 }
 
 .subtitle-desc {
@@ -121,8 +124,8 @@ div.card.card-projeto1 h1 {
   margin-right: 40px;
 }
 
-.bolinha-tech p{
-  color:var(--text-color);
+.bolinha-tech p {
+  color: var(--text-color);
 }
 
 .bolinha {
@@ -132,8 +135,6 @@ div.card.card-projeto1 h1 {
   border-radius: 50%;
   margin-right: 20px;
 }
-
-
 
 .post-title {
   background: var(--bg-cards);
