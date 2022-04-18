@@ -11,9 +11,10 @@ body {
   position: relative;
   width: 1440px;
   height: 1767px;
+  
 }
 
-main {
+.title {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
@@ -136,29 +137,62 @@ a#component {
   margin-right: 20px;
 }
 
-.post-title {
-  background: var(--bg-cards);
-  border-radius: 20px;
-  position: absolute;
+.post-title{
   margin-top: 373px;
-  margin-left: 448px;
-  height: 86px;
-  width: 952px;
+ 
 }
 
-.content-post {
+.card-post{
   background: var(--bg-cards);
   border-radius: 20px;
+  width: 952px;
+  height: 201px;
+
+}
+
+.content-post1 {
   display: flex;
   justify-content: space-between;
   position: absolute;
   margin-top: 489px;
   margin-left: 448px;
-  width: 952px;
-  height: 201px;
 }
 
-.content-post > img {
+.content-post2 {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: 729px;
+  margin-left: 448px;
+}
+
+.content-post3 {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: 971px;
+  margin-left: 448px;
+}
+
+.content-post1 > img {
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  margin-left: 30px;
+  margin-top: 31px;
+  margin-bottom: 42px;
+}
+
+.content-post2 > img {
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  margin-left: 30px;
+  margin-top: 31px;
+  margin-bottom: 42px;
+}
+
+.content-post3 > img {
   border-radius: 50%;
   width: 128px;
   height: 128px;
@@ -186,7 +220,7 @@ a#component {
   position: absolute;
   margin-top: 30px;
   margin-bottom: 140px;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--text-color);
 }
 
