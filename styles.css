@@ -74,7 +74,7 @@ aside {
   justify-content: space-evenly;
 }
 
-a#component{
+a#component {
   width: 133px;
 }
 
@@ -149,11 +149,78 @@ a#component{
 .content-post {
   background: var(--bg-cards);
   border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
   position: absolute;
   margin-top: 489px;
   margin-left: 448px;
   width: 952px;
   height: 201px;
+}
+
+.content-post > img {
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  margin-left: 30px;
+  margin-top: 31px;
+  margin-bottom: 42px;
+}
+
+.post-text {
+  position: absolute;
+  color: var(--text-color);
+  padding-bottom: 46px;
+  margin-left: 178px;
+  margin-bottom: 42px;
+  margin-right: 162px;
+  width: 612px;
+  height: 129px;
+}
+
+.first-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  position: absolute;
+  margin-top: 30px;
+  margin-bottom: 140px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.date-post {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  position: absolute;
+  margin-top: 61px;
+  margin-bottom: 122px;
+}
+
+.descricao-post {
+  width: 501px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  line-height: 20px;
+  margin-top: 107px;
+  margin-right: 273px;
+  margin-bottom: 174px;
+}
+
+.keywords {
+  margin-top: 138px;
+  margin-bottom: 42px;
+  position: absolute;
+}
+
+.keywords span {
+  margin-right: 10px;
 }
 
 .card-perfil {
