@@ -30,6 +30,7 @@ article, aside, details, figcaption, figure, header, hgroup, menu, nav, section 
 body {
 	line-height: 1;
 	font-family: 'Merriweather Sans', sans-serif;
+	margin: auto;
 }
 
 blockquote, q {
