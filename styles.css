@@ -11,7 +11,6 @@ body {
   position: relative;
   width: 1440px;
   height: 1767px;
-  
 }
 
 .title {
@@ -137,17 +136,15 @@ a#component {
   margin-right: 20px;
 }
 
-.post-title{
+.post-title {
   margin-top: 373px;
- 
 }
 
-.card-post{
+.card-post {
   background: var(--bg-cards);
   border-radius: 20px;
   width: 952px;
   height: 201px;
-
 }
 
 .content-post1 {
@@ -220,7 +217,7 @@ a#component {
   position: absolute;
   margin-top: 30px;
   margin-bottom: 140px;
-  /* text-decoration: none; */
+  text-decoration: none;
   color: var(--text-color);
 }
 
@@ -255,6 +252,57 @@ a#component {
 
 .keywords span {
   margin-right: 10px;
+}
+
+.card-post4 {
+  background: var(--bg-cards);
+  border-radius: 20px;
+  width: 952px;
+  height: 201px;
+  background: yellow;
+}
+
+.content-post4 {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: 1212px;
+  margin-left: 448px;
+}
+
+.alinha-conteudo {
+  background: pink;
+  position: absolute;
+  width: 721px;
+  height: 201px;
+  display: block;
+}
+
+img.alinha-imagem {
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  margin-left: 30px;
+  margin-top: 31px;
+  margin-bottom: 42px;
+}
+
+.alinha-texto {
+  background: blue;
+  margin-left: 183px;
+}
+
+.first-title2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  position: absolute;
+}
+
+#text-link {
+  color: red;
 }
 
 .card-perfil {
