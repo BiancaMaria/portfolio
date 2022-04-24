@@ -291,7 +291,7 @@ img.alinha-imagem {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 362px;
+  margin-top: 25%;
   margin-left: 40px;
   width: 348px;
   height: 348px;
@@ -342,7 +342,17 @@ img.alinha-imagem {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 740px;
+  margin-top: 51%;
+  margin-left: 40px;
+  width: 348px;
+  height: 208px;
+}
+
+.card-soft-skills {
+  background: var(--bg-cards);
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 67.35%;
   margin-left: 40px;
   width: 348px;
   height: 208px;
@@ -397,7 +407,7 @@ ul > li > p.row-p {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 978px;
+  margin-top: 83.75%;
   margin-left: 40px;
   width: 348px;
   height: 349px;
@@ -407,7 +417,7 @@ ul > li > p.row-p {
   width: 127px;
 }
 
-.container-exp {
+.container-exp, .container-educ {
   color: var(--text-color);
   margin-left: 40px;
   margin-top: 76px;
@@ -421,7 +431,7 @@ ul > li > p.row-p {
   position: absolute;
 }
 
-.list-exp {
+.list-exp, .list-educ {
   line-height: 16px;
   margin-bottom: 20px;
 }
@@ -442,10 +452,10 @@ span.time {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 1357px;
+  margin-top: 110%;
   margin-left: 40px;
   width: 348px;
-  height: 352px;
+  height: 391px;
 }
 
 footer {
