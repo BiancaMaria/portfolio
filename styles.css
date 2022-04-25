@@ -387,7 +387,7 @@ li.row {
   border-radius: 30px;
   width: 84px;
   height: 24px;
-  background: var(--bg-techs);
+  background: var(--body-bg-color);
   margin-bottom: 15px;
 }
 
@@ -401,6 +401,7 @@ li.row {
 
 ul > li > p.row-p {
   padding-top: 6px;
+  color:var(--text-color);
 }
 
 .card-experiencia {
@@ -462,10 +463,11 @@ footer {
   height: 19px;
   color: var(--text-color);
   line-height: 20px;
-  margin-top: 1750px;
+  margin-top: 2185px;
   margin-left: 617px;
   margin-right: 617px;
   padding-bottom: 25px;
   position: absolute;
-  width: 206px;
+  width: 210px;
+  
 }
