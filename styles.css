@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .projects h1 {
@@ -74,6 +75,24 @@ aside {
   justify-content: space-evenly;
 }
 
+.card-projeto3 {
+  margin-left: 448px;
+  margin-top: 378px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#card3, #card4{
+  display: none;
+}
+
+.card-projeto4 {
+  margin-left: 939px;
+  margin-top: 378px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 a#component {
   width: 133px;
 }
@@ -100,6 +119,7 @@ a#component {
   font-weight: 700;
   font-size: 16px;
   position: absolute;
+  
 }
 
 .subtitle-desc {
