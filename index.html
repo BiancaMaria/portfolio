@@ -15,93 +15,95 @@
     <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
-    <div class="title">
-      <div class="content-projects projects">
-        <h1>My Projects</h1>
-      </div>
-
-      <div class="content-projects todos">
-        <a href="#" onclick="exibeCardProjetos()">Veja todos</a>
-      </div>
-    </div>
-
-    <div class="card card-projeto1">
-      <img
-        class="repository"
-        src="./assets/folder.svg"
+    <div class="container">
+      <div class="box">
+        <div class="title">
+          <div class="content-projects projects">
+            <h1>My Projects</h1>
+          </div>
+          
+          <div class="content-projects todos">
+            <a href="#" id="veja">Veja todos</a>
+          </div>
+        </div>
+        
+        <div class="card card-projeto1">
+          <img
+          class="repository"
+          src="./assets/folder.svg"
         alt="repositório de projeto"
-      />
-      <a href="https://flexblog-six.vercel.app/" class="project-title"
+        />
+        <a href="https://flexblog-six.vercel.app/" class="project-title"
         >Flexblog</a
-      >
-
-      <h2 class="subtitle-desc">
-        Projeto desenvolvido durante o curso CSS Flexbox da Origamid
-      </h2>
-
-      <div class="bolinha-tech">
-        <div class="bolinha"></div>
-        <p>HTML</p>
+        >
+        
+        <h2 class="subtitle-desc">
+          Projeto desenvolvido durante o curso CSS Flexbox da Origamid
+        </h2>
+        
+        <div class="bolinha-tech">
+          <div class="bolinha"></div>
+          <p>HTML</p>
+        </div>
       </div>
-    </div>
-
-    <div class="card card-projeto2">
-      <img
+      
+      <div class="card card-projeto2">
+        <img
         class="repository"
         src="./assets/folder.svg"
         alt="repositório de projeto"
-      />
-      <a
+        />
+        <a
         id="component"
         href="https://card-component-five.vercel.app/"
         class="project-title"
         >Card Component</a
-      >
-
-      <h2 class="subtitle-desc">
-        Projeto desenvolvido a partir dos desafios da Frontend Mentor
-      </h2>
-
-      <div class="bolinha-tech">
-        <div class="bolinha"></div>
-        <p>CSS</p>
+        >
+        
+        <h2 class="subtitle-desc">
+          Projeto desenvolvido a partir dos desafios da Frontend Mentor
+        </h2>
+        
+        <div class="bolinha-tech">
+          <div class="bolinha"></div>
+          <p>CSS</p>
+        </div>
       </div>
-    </div>
-
-    <div id="card3" class="card card-projeto3">
-      <img
+      
+      <div id="card3" class="card card-projeto3">
+        <img
         class="repository"
         src="./assets/folder.svg"
         alt="repositório de projeto"
-      />
-      <a
+        />
+        <a
         id="component"
         href="https://card-component-five.vercel.app/"
         class="project-title"
         >Projeto 3</a
-      >
-
-      <h2 class="subtitle-desc">
-        Projeto desenvolvido a partir dos desafios da Frontend Mentor
-      </h2>
-
-      <div class="bolinha-tech">
-        <div class="bolinha"></div>
-        <p>CSS</p>
+        >
+        
+        <h2 class="subtitle-desc">
+          Projeto desenvolvido a partir dos desafios da Frontend Mentor
+        </h2>
+        
+        <div class="bolinha-tech">
+          <div class="bolinha"></div>
+          <p>CSS</p>
+        </div>
       </div>
-    </div>
 
     <div id="card4" class="card card-projeto4">
       <img
-        class="repository"
-        src="./assets/folder.svg"
-        alt="repositório de projeto"
+      class="repository"
+      src="./assets/folder.svg"
+      alt="repositório de projeto"
       />
       <a
-        id="component"
-        href="https://card-component-five.vercel.app/"
-        class="project-title"
-        >Projeto 4</a
+      id="component"
+      href="https://card-component-five.vercel.app/"
+      class="project-title"
+      >Projeto 4</a
       >
 
       <h2 class="subtitle-desc">
@@ -114,7 +116,7 @@
       </div>
     </div>
 
-    <div class="title post-title">
+    <div id="favourites-posts" class="title post-title">
       <p>Favourites Posts</p>
     </div>
 
@@ -189,7 +191,7 @@
 
     <div class="card-post content-post4">
       <a
-        class="card-link alinha-conteudo"
+      class="card-link alinha-conteudo"
         href="https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-flexbox-01-f75be5f35d3d"
       >
         <img class="alinha-imagem" src="./assets/flex.jpeg" alt="" />
@@ -209,7 +211,7 @@
         </div>
       </a>
     </div>
-
+    
     <div class="card-perfil perfil">
       <h1 class="name">Bianca Reis</h1>
       <p class="dev">Frontend Developer</p>
@@ -306,7 +308,7 @@
         </ul>
       </div>
     </div>
-
+    
     <div class="card-experiencia">
       <h1 class="exp">Experiências</h1>
       <div class="container-exp">
@@ -334,15 +336,15 @@
             Sistemas de Informação
             <p class="descricao">IFMA</p>
             <span class="time exp1"> Cursando.<span>
-          </li>
-
-          <li class="list-educ">
-            Técnico de Programação de Computadores
-            <p class="descricao">IFMA</p>
-            <span class="time exp2"> 2012 - 2014.</span>
-          </li>
-
-          <li class="list-educ">
+            </li>
+            
+            <li class="list-educ">
+              Técnico de Programação de Computadores
+              <p class="descricao">IFMA</p>
+              <span class="time exp2"> 2012 - 2014.</span>
+            </li>
+            
+            <li class="list-educ">
             Méliuz Tech Experience
             <p class="descricao">Gama Academy</p>
             <span class="time exp2"> Out-2021 - Jan-2022.</span>
@@ -356,11 +358,13 @@
         </ul>
       </div>
     </div>
-
+    
     <footer>
       <p>Feito com &#128150; por Bianca Reis</p>
     </footer>
-
+  </div>
+    
+  </div>
     <script src="./script.js"></script>
   </body>
 </html>
