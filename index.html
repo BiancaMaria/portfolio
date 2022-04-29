@@ -17,16 +17,17 @@
   <body>
     <div class="container">
       <div class="box">
-        <div class="title">
-          <div class="content-projects projects">
-            <h1>My Projects</h1>
-          </div>
-          
-          <div class="content-projects todos">
-            <a href="#" id="veja">Veja todos</a>
-          </div>
-        </div>
         
+        <main>
+        <div class="title">
+            <div class="content-projects projects">
+              <h1>My Projects</h1>
+            </div>
+            
+            <div class="content-projects todos">
+              <a href="#" id="veja">Veja todos</a>
+            </div>
+          </div>
         <div class="card card-projeto1">
           <img
           class="repository"
@@ -69,8 +70,8 @@
           <p>CSS</p>
         </div>
       </div>
-      
-      <div id="card3" class="card card-projeto3">
+    
+      <!-- <div id="card3" class="card card-projeto3">
         <img
         class="repository"
         src="./assets/folder.svg"
@@ -87,11 +88,11 @@
           Projeto desenvolvido a partir dos desafios da Frontend Mentor
         </h2>
         
-        <div class="bolinha-tech">
-          <div class="bolinha"></div>
+        <div id="bolinha1" class="bolinha-tech">
+          <div id="bolinha2" class="bolinha"></div>
           <p>CSS</p>
         </div>
-      </div>
+      </div> -->
 
     <div id="card4" class="card card-projeto4">
       <img
@@ -115,16 +116,18 @@
         <p>CSS</p>
       </div>
     </div>
+  </main>
+    <article>
 
-    <div id="favourites-posts" class="title post-title">
-      <p>Favourites Posts</p>
-    </div>
-
-    <div class="card-post content-post1">
-      <a
+      <div id="favourites-posts" class="title post-title">
+        <p>Favourites Posts</p>
+      </div>
+      
+      <div class="card-post content-post1">
+        <a
         class="card-link alinha-conteudo"
         href="https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-a-position-absolute-ccd07c68b32b"
-      >
+        >
         <img class="alinha-imagem" src="./assets/absolute.png" alt="" />
         <div class="alinha-texto">
           <p class="first-title">
@@ -142,76 +145,78 @@
         </div>
       </a>
     </div>
-
+    
     <div class="card-post content-post2">
       <a
-        class="card-link alinha-conteudo"
-        href="https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-a-position-static-e-position-relative-5df0a6160543"
-      >
-        <img class="alinha-imagem" src="./assets/relative.png" alt="" />
-        <div class="alinha-texto">
-          <p class="first-title">
-            Pare de chutar e aprenda como funciona a position: relative
-          </p>
-          <p class="date-post">Jan 4, 2018</p>
-          <p class="descricao-post">
-            Pare de chutar e aprenda como funciona a position: relative
-          </p>
-          <div class="keywords">
-            <span class=""># relative </span>
-            <span class=""># css3 </span>
-            <span class=""># posicionamento </span>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="card-post content-post3">
-      <a
-        class="card-link alinha-conteudo"
-        href="https://www.treinaweb.com.br/blog/css-grid-um-guia-interativo-parte-1-containers"
-      >
-        <img class="alinha-imagem" src="./assets/grid.jpg" alt="" />
-        <div class="alinha-texto">
-          <p class="first-title">
-            Aprenda Grid Layout com CSS
-          </p>
-          <p class="date-post">Out 25, 2018</p>
-          <p class="descricao-post">
-            Guia Interativo (Parte 1 – Containers)
-          </p>
-          <div class="keywords">
-            <span class=""># front-end </span>
-            <span class=""># css3 </span>
-            <span class=""># grid </span>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="card-post content-post4">
-      <a
       class="card-link alinha-conteudo"
-        href="https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-flexbox-01-f75be5f35d3d"
+      href="https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-a-position-static-e-position-relative-5df0a6160543"
       >
-        <img class="alinha-imagem" src="./assets/flex.jpeg" alt="" />
-        <div class="alinha-texto">
-          <p class="first-title">
-            Pare de chutar e aprenda como funciona Flexbox
-          </p>
-          <p class="date-post">Jun 25, 2019</p>
-          <p class="descricao-post">
-            Pare de chutar e aprenda como funciona Flexbox
-          </p>
-          <div class="keywords">
-            <span class=""># front-end </span>
-            <span class=""># css3</span>
-            <span class=""># flex</span>
-          </div>
+      <img class="alinha-imagem" src="./assets/relative.png" alt="" />
+      <div class="alinha-texto">
+        <p class="first-title">
+          Pare de chutar e aprenda como funciona a position: relative
+        </p>
+        <p class="date-post">Jan 4, 2018</p>
+        <p class="descricao-post">
+          Pare de chutar e aprenda como funciona a position: relative
+        </p>
+        <div class="keywords">
+          <span class=""># relative </span>
+          <span class=""># css3 </span>
+          <span class=""># posicionamento </span>
         </div>
-      </a>
+      </div>
+    </a>
+  </div>
+  
+  <div class="card-post content-post3">
+    <a
+    class="card-link alinha-conteudo"
+    href="https://www.treinaweb.com.br/blog/css-grid-um-guia-interativo-parte-1-containers"
+    >
+    <img class="alinha-imagem" src="./assets/grid.jpg" alt="" />
+    <div class="alinha-texto">
+      <p class="first-title">
+        Aprenda Grid Layout com CSS
+      </p>
+      <p class="date-post">Out 25, 2018</p>
+      <p class="descricao-post">
+        Guia Interativo (Parte 1 – Containers)
+      </p>
+      <div class="keywords">
+        <span class=""># front-end </span>
+        <span class=""># css3 </span>
+        <span class=""># grid </span>
+      </div>
     </div>
-    
+  </a>
+</div>
+
+<div class="card-post content-post4">
+  <a
+  class="card-link alinha-conteudo"
+  href="https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-flexbox-01-f75be5f35d3d"
+  >
+  <img class="alinha-imagem" src="./assets/flex.jpeg" alt="" />
+  <div class="alinha-texto">
+    <p class="first-title">
+      Pare de chutar e aprenda como funciona Flexbox
+    </p>
+    <p class="date-post">Jun 25, 2019</p>
+    <p class="descricao-post">
+      Pare de chutar e aprenda como funciona Flexbox
+    </p>
+    <div class="keywords">
+      <span class=""># front-end </span>
+      <span class=""># css3</span>
+      <span class=""># flex</span>
+    </div>
+  </div>
+</a>
+</div>
+</article>
+
+<aside>
     <div class="card-perfil perfil">
       <h1 class="name">Bianca Reis</h1>
       <p class="dev">Frontend Developer</p>
@@ -358,7 +363,7 @@
         </ul>
       </div>
     </div>
-    
+  </aside>
     <footer>
       <p>Feito com &#128150; por Bianca Reis</p>
     </footer>

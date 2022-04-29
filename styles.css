@@ -14,7 +14,6 @@ body {
 }
 
 .container {
-  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -27,19 +26,39 @@ body {
   
 }
 
+aside {
+  min-width: 348px;
+  min-height: 1789px;
+  position: absolute;
+  left:40px;
+}
+
+main {
+  min-width: 952px;
+  min-height: 33%;
+  position: absolute;
+  margin-left: 448px;
+  margin-top: 40px;
+}
+
+article{
+  min-width: 952px;
+  min-height: 63%;
+  position: absolute;
+  left:448px;
+  top:411px;
+}
+
 .title {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
   width: 952px;
   height: 86px;
-  margin-left: 448px;
-  margin-top: 40px;
   margin-right: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .projects h1 {
@@ -63,14 +82,17 @@ body {
   font-size: 20px;
 }
 
-aside {
-  width: 18.24%;
+/* .coisa{
   background: pink;
-}
+  width: 82%;
+  height: 83%;
+  position: absolute;
+  margin-left: 446px;
+} */
 
 .card {
   position: absolute;
-  margin-top: 157px;
+  margin-top: 135px;
   background: var(--bg-cards);
   width: 461px;
   height: 186px;
@@ -78,25 +100,26 @@ aside {
 }
 
 .card-projeto1 {
-  margin-left: 448px;
+  
   display: flex;
   justify-content: space-evenly;
 }
 
 .card-projeto2 {
-  margin-left: 939px;
+  margin-left: 492px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .card-projeto3 {
   margin-left: 448px;
-  margin-top: 378px;
+  margin-top: 394px;
   display: flex;
   justify-content: space-evenly;
 }
 
-#card3, #card4{
+#card3,
+#card4 {
   display: none;
 }
 
@@ -133,7 +156,6 @@ a#component {
   font-weight: 700;
   font-size: 16px;
   position: absolute;
-  
 }
 
 .subtitle-desc {
@@ -170,9 +192,17 @@ a#component {
   margin-right: 20px;
 }
 
-.post-title {
-  margin-top: 373px;
+#bolinha2 {
+  margin-right: 66px;
 }
+
+#p-bolinha {
+  margin-left: 36px;
+}
+
+/* .post-title {
+  margin-top: 373px;
+} */
 
 .card-post {
   background: var(--bg-cards);
@@ -183,20 +213,20 @@ a#component {
 
 .content-post1 {
   position: absolute;
-  margin-top: 489px;
-  margin-left: 448px;
+  margin-top: 136px;
+  /* margin-left: 448px; */
 }
 
 .content-post2 {
   position: absolute;
-  margin-top: 729px;
-  margin-left: 448px;
+  margin-top: 367px;
+  /* margin-left: 448px; */
 }
 
 .content-post3 {
   position: absolute;
-  margin-top: 971px;
-  margin-left: 448px;
+  margin-top: 600px;
+  /* margin-left: 448px; */
 }
 
 .date-post {
@@ -234,8 +264,8 @@ a#component {
 
 .content-post4 {
   position: absolute;
-  margin-top: 1212px;
-  margin-left: 448px;
+  margin-top: 833px;
+  /* margin-left: 448px; */
 }
 
 .card-link {
@@ -281,7 +311,6 @@ img.alinha-imagem {
   border-radius: 20px;
   position: absolute;
   margin-top: 40px;
-  margin-left: 40px;
   width: 348px;
   height: 292px;
 }
@@ -325,8 +354,7 @@ img.alinha-imagem {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 25%;
-  margin-left: 40px;
+  margin-top: 105%;
   width: 348px;
   height: 348px;
 }
@@ -376,8 +404,7 @@ img.alinha-imagem {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 51%;
-  margin-left: 40px;
+  margin-top: 211%;
   width: 348px;
   height: 208px;
 }
@@ -386,8 +413,7 @@ img.alinha-imagem {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 67.35%;
-  margin-left: 40px;
+  margin-top: 404.3%;
   width: 348px;
   height: 208px;
 }
@@ -435,15 +461,14 @@ li.row {
 
 ul > li > p.row-p {
   padding-top: 6px;
-  color:var(--text-color);
+  color: var(--text-color);
 }
 
 .card-experiencia {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 83.75%;
-  margin-left: 40px;
+  margin-top: 277.8%;
   width: 348px;
   height: 349px;
 }
@@ -452,7 +477,8 @@ ul > li > p.row-p {
   width: 127px;
 }
 
-.container-exp, .container-educ {
+.container-exp,
+.container-educ {
   color: var(--text-color);
   margin-left: 40px;
   margin-top: 76px;
@@ -466,7 +492,8 @@ ul > li > p.row-p {
   position: absolute;
 }
 
-.list-exp, .list-educ {
+.list-exp,
+.list-educ {
   line-height: 16px;
   margin-bottom: 20px;
 }
@@ -487,8 +514,7 @@ span.time {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 110%;
-  margin-left: 40px;
+  margin-top: 385%;
   width: 348px;
   height: 391px;
 }
@@ -503,5 +529,4 @@ footer {
   padding-bottom: 25px;
   position: absolute;
   width: 210px;
-  
 }
