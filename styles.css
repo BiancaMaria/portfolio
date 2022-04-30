@@ -10,7 +10,15 @@ body {
   background: var(--body-bg-color);
   position: relative;
   width: 1440px;
-  height: 1767px;
+  height: 1921px;
+}
+
+header.my-projects {
+  margin-left: 448px;
+  margin-top: 40px;
+  position: absolute;
+  width: 952px;
+  height: 86px;
 }
 
 .container {
@@ -22,31 +30,56 @@ body {
 
 .box {
   width: 100%;
-  height: 2249px;
-  
+  height: 1960px;
 }
 
 aside {
   min-width: 348px;
   min-height: 1789px;
   position: absolute;
-  left:40px;
+  left: 40px;
+  top: 40px;
+  
 }
 
-main {
+main.content-projects {
   min-width: 952px;
   min-height: 33%;
-  position: absolute;
+  position: relative;
   margin-left: 448px;
-  margin-top: 40px;
+  margin-top: 169px;
 }
 
-article{
+section.card-projects {
+  min-width: 953px;
+  min-height: 73%;
+  position: absolute;
+  padding-bottom: 10px;
+}
+
+section.generate-card-projects {
+  /* background: blueviolet; */
+  min-width: 953px;
+  min-height: 33%;
+  position: absolute;
+  padding-bottom: 10px;
+  margin-top: 221px;
+}
+
+article.active-posts {
   min-width: 952px;
   min-height: 63%;
   position: absolute;
-  left:448px;
-  top:411px;
+  left: 448px;
+  top: 411px;
+}
+
+article.desative_posts {
+  min-width: 952px;
+  min-height: 63%;
+  position: absolute;
+  left: 448px;
+  top: 650px;
 }
 
 .title {
@@ -92,7 +125,6 @@ article{
 
 .card {
   position: absolute;
-  margin-top: 135px;
   background: var(--bg-cards);
   width: 461px;
   height: 186px;
@@ -100,7 +132,6 @@ article{
 }
 
 .card-projeto1 {
-  
   display: flex;
   justify-content: space-evenly;
 }
@@ -112,23 +143,24 @@ article{
 }
 
 .card-projeto3 {
-  margin-left: 448px;
-  margin-top: 394px;
   display: flex;
   justify-content: space-evenly;
 }
 
-#card3,
+/* #card3,
 #card4 {
   display: none;
-}
+} */
 
 .card-projeto4 {
-  margin-left: 939px;
-  margin-top: 378px;
+  margin-left: 492px;
   display: flex;
   justify-content: space-evenly;
 }
+
+/* .expande-card{
+  top: 625px;
+} */
 
 a#component {
   width: 133px;
@@ -213,19 +245,19 @@ a#component {
 
 .content-post1 {
   position: absolute;
-  margin-top: 136px;
+  margin-top: 113px;
   /* margin-left: 448px; */
 }
 
 .content-post2 {
   position: absolute;
-  margin-top: 367px;
+  margin-top: 352px;
   /* margin-left: 448px; */
 }
 
 .content-post3 {
   position: absolute;
-  margin-top: 600px;
+  margin-top: 590px;
   /* margin-left: 448px; */
 }
 
@@ -264,7 +296,7 @@ a#component {
 
 .content-post4 {
   position: absolute;
-  margin-top: 833px;
+  margin-top: 829px;
   /* margin-left: 448px; */
 }
 
@@ -306,11 +338,10 @@ img.alinha-imagem {
   margin-top: 30px;
 }
 
-.card-perfil {
+.card-profile {
   background: var(--bg-cards);
   border-radius: 20px;
   position: absolute;
-  margin-top: 40px;
   width: 348px;
   height: 292px;
 }
@@ -340,7 +371,7 @@ img.alinha-imagem {
   margin: 226px 110px 49px;
 }
 
-.perfil img {
+.profile img {
   box-sizing: border-box;
   border: 2px solid #00ff00;
   border-radius: 50%;
@@ -523,7 +554,7 @@ footer {
   height: 19px;
   color: var(--text-color);
   line-height: 20px;
-  margin-top: 2185px;
+  margin-top: 1073px;
   margin-left: 617px;
   margin-right: 617px;
   padding-bottom: 25px;
