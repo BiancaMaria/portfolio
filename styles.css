@@ -359,16 +359,22 @@ img.alinha-imagem {
   text-align: center;
 }
 
-.dev {
+.dev, .zap {
   color: var(--text-color);
   position: absolute;
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
   line-height: 16px;
+  text-align: center;
   width: 128px;
   height: 17px;
   margin: 226px 110px 49px;
+}
+
+p.zap{
+  top:20px;
+  font-weight: bold;
 }
 
 .profile img {

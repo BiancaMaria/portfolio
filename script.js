@@ -36,13 +36,13 @@ function createCard3(){
   
   const link = document.createElement('a');
   link.id = 'component';
-  link.href = 'https://card-component-five.vercel.app/';
+  link.href = 'https://maratona-discover-frontend.vercel.app/';
   link.className = 'project-title';
-  link.innerText = 'Projeto 3';
+  link.innerText = 'Dev Finance';
   
   const h2 = document.createElement('h2');
   h2.className = 'subtitle-desc';
-  h2.innerText = 'Projeto desenvolvido a partir dos desafios da Frontend Mentor';
+  h2.innerText = 'Projeto desenvolvido da maratona da Rocketseat para iniciantes';
   
   const divBolinhaTech = document.createElement('div');
   divBolinhaTech.className = 'bolinha-tech';
@@ -76,13 +76,13 @@ function createCard4(){
   
   const link = document.createElement('a');
   link.id = 'component';
-  link.href = 'https://card-component-five.vercel.app/';
+  link.href = 'https://proffy-tan.vercel.app/';
   link.className = 'project-title';
-  link.innerText = 'Projeto 4';
+  link.innerText = 'Proffy';
   
   const h2 = document.createElement('h2');
   h2.className = 'subtitle-desc';
-  h2.innerText = 'Projeto desenvolvido a partir dos desafios da Frontend Mentor';
+  h2.innerText = 'Projeto desenvolvido a partir NLW promovido pela Rocketseat';
   
   const divBolinhaTech = document.createElement('div');
   divBolinhaTech.className = 'bolinha-tech';
